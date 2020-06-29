@@ -28,10 +28,10 @@ Spark cluster running over mesos
 
 | # of executors | Executor memory | Executor cores | Driver memory |
 |----------------|-----------------|----------------|---------------|
-|50|3g|2|2g
+|50|2g|2|2g
 
 Run details
 
 | # of vertices | # of edges | vertexLoader batchsize | edgeLoader batchsize |  Vertex load time  | Edge load time | Total Job time |
 |---------------|------------|------------------------|----------------------|--------------------|----------------|----------------|
-|-|128480018|100|100|18 s|55 min|1.1 h|
+|107619|128480018|100|100|10 s|53 min|1.1 h|

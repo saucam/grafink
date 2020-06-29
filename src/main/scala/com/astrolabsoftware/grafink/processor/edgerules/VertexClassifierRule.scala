@@ -26,7 +26,7 @@ trait VertexClassifierRule {
 
   /**
    * Given data already existing in graph (loadedDf) and the new data to ingest (df)
-   * Return a Dataset of {@link MakeEdge}. In all the rows of the returned RDD, src id
+   * Return a Dataset of MakeEdge. In all the rows of the returned RDD, src id
    * must always be of the new data to ingest (df).
    * @param df
    * @return DataFrame
